@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SafeIkaw | DRRM Research Questionnaire</title>
+  <meta name="description" content="SafeIkaw DRRM Problem Validation & Operations Study: a WMSU College of Computing Studies research questionnaire on hazard communication, dispatch lags, and emergency workflows in Zamboanga.">
+  <meta name="theme-color" content="#0B1F3F">
+  <meta property="og:title" content="SafeIkaw DRRM Problem Validation & Operations Study">
+  <meta property="og:description" content="Answer the official research questionnaire. 15–20 minutes. RA 10173 Data Privacy protected.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B1F3F'/%3E%3Cpath d='M16 6l8 3v6c0 5.5-3.4 9-8 11-4.6-2-8-5.5-8-11V9z' fill='%23C8102E'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://api.qrserver.com">
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 950: '#071730', 900: '#0B1F3F', 800: '#132C55', 700: '#1E3D6F' },
+            crimson: { 600: '#C8102E', 700: '#A50D26' },
+            alert: { 400: '#FB923C', 500: '#F97316' }
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <style>
+    /* Reserve icon space so nothing shifts while the icon script loads. */
+    i[data-lucide] { display: inline-block; flex-shrink: 0; }
+    :focus-visible { outline: 3px solid #F97316; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto !important; }
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-20 border-b border-slate-200 bg-white/95 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+      <a href="#top" class="flex min-w-0 items-center gap-2.5">
+        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-navy-900 text-white">
+          <i data-lucide="shield-alert" class="h-5 w-5"></i>
+        </span>
+        <span class="min-w-0 leading-tight">
+          <span class="block text-base font-bold tracking-tight text-navy-900">SafeIkaw</span>
+          <span class="hidden text-xs text-slate-500 sm:block">Real-Time Disaster Reporting &amp; Verified Dispatch</span>
+        </span>
+      </a>
+      <div class="flex shrink-0 items-center gap-1.5 text-xs font-semibold">
+        <span class="rounded-md bg-crimson-600 px-2 py-1 text-white" title="Western Mindanao State University">WMSU</span>
+        <span class="rounded-md border border-navy-900 px-2 py-1 text-navy-900" title="College of Computing Studies">CCS</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero + CTA -->
+    <section class="bg-navy-900 text-white">
+      <div class="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:px-6 md:py-20 lg:grid-cols-[1fr_300px] lg:items-center lg:gap-16">
+        <div>
+          <p class="text-sm font-medium text-slate-300">Western Mindanao State University <span class="text-slate-500">/</span> College of Computing Studies</p>
+          <p class="mt-1.5 text-sm font-semibold text-alert-400">Real-Time Disaster Reporting &amp; Verified Dispatch</p>
+
+          <h1 class="mt-5 text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-5xl lg:leading-[1.1]">SafeIkaw DRRM Problem Validation &amp; Operations Study</h1>
+          <p class="mt-5 max-w-2xl text-base leading-relaxed text-slate-300 sm:text-lg">A Technopreneurship research initiative evaluating real-time hazard communication, dispatch lags, and emergency workflows in Zamboanga.</p>
+
+          <ul class="mt-6 flex flex-wrap gap-2 text-sm">
+            <li class="inline-flex items-center gap-2 rounded-full bg-navy-800 px-3 py-1.5"><i data-lucide="clock" class="h-4 w-4 text-alert-400"></i>15–20 Minutes</li>
+            <li class="inline-flex items-center gap-2 rounded-full bg-navy-800 px-3 py-1.5"><i data-lucide="shield-check" class="h-4 w-4 text-alert-400"></i>RA 10173 Data Privacy Protected</li>
+            <li class="inline-flex items-center gap-2 rounded-full bg-navy-800 px-3 py-1.5"><i data-lucide="graduation-cap" class="h-4 w-4 text-alert-400"></i>WMSU Academic Course Work</li>
+          </ul>
+
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a id="form-link" href="#" target="_blank" rel="noopener" class="inline-flex min-h-14 items-center justify-center gap-2.5 rounded-lg bg-crimson-600 px-7 py-3.5 text-center text-lg font-semibold text-white transition-colors hover:bg-crimson-700">
+              Launch Research Questionnaire
+              <i data-lucide="external-link" class="h-5 w-5"></i>
+            </a>
+            <button id="embed-toggle" type="button" aria-expanded="false" aria-controls="embed-panel" class="inline-flex min-h-14 items-center justify-center gap-2 rounded-lg border border-slate-500 px-5 py-3.5 font-medium text-white transition-colors hover:border-white hover:bg-navy-800">
+              Or Fill Out Questionnaire Right Here
+              <span id="embed-chevron" class="inline-flex transition-transform"><i data-lucide="chevron-down" class="h-5 w-5"></i></span>
+            </button>
+          </div>
+          <p id="config-notice" class="mt-4 hidden items-start gap-2 rounded-lg bg-alert-500/15 px-3 py-2 text-sm text-orange-200" role="status">
+            <i data-lucide="triangle-alert" class="mt-0.5 h-4 w-4"></i>
+            <span>The questionnaire link has not been set yet. Please check back shortly.</span>
+          </p>
+        </div>
+
+        <!-- QR card -->
+        <aside class="mx-auto w-full max-w-[300px] rounded-2xl bg-white p-6 text-center text-navy-900 shadow-xl">
+          <div class="mx-auto flex h-[200px] w-[200px] items-center justify-center">
+            <img id="qr-image" alt="QR code linking to the SafeIkaw research questionnaire" width="200" height="200" class="hidden h-[200px] w-[200px]">
+            <div id="qr-fallback" class="flex h-full w-full flex-col items-center justify-center gap-2 rounded-lg bg-slate-100 p-4 text-xs text-slate-500">
+              <i data-lucide="qr-code" class="h-10 w-10 text-slate-400"></i>
+              <span id="qr-fallback-text">QR code appears once the questionnaire link is set</span>
+            </div>
+          </div>
+          <p class="mt-4 inline-flex items-center gap-2 text-lg font-bold"><i data-lucide="smartphone" class="h-5 w-5 text-crimson-600"></i>Scan on Mobile</p>
+          <p class="mt-1 text-sm text-slate-500">Point your phone camera at the code to open the questionnaire.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Embedded form (the iframe only loads on first open, to save mobile data) -->
+    <section id="embed-panel" class="hidden scroll-mt-16 border-b border-slate-200 bg-slate-100" aria-label="Embedded research questionnaire">
+      <div class="mx-auto max-w-3xl px-2 py-6 sm:px-6">
+        <div id="embed-slot" class="overflow-hidden rounded-xl border border-slate-200 bg-white"></div>
+        <p class="mt-3 px-2 text-center text-sm text-slate-600">
+          Form not loading or asking you to sign in?
+          <a id="embed-fallback-link" href="#" target="_blank" rel="noopener" class="font-semibold text-crimson-600 underline underline-offset-2">Open it in a new tab</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Who should participate -->
+    <section id="participate" class="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-20">
+      <h2 class="text-2xl font-bold tracking-tight text-navy-900 sm:text-3xl">Who Should Participate</h2>
+      <p class="mt-2 max-w-2xl text-slate-600">Your frontline experience is what this study needs. Please answer if you belong to any of these groups.</p>
+
+      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <article class="rounded-xl border border-slate-200 p-5">
+          <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-navy-900 text-white"><i data-lucide="landmark" class="h-5 w-5"></i></span>
+          <h3 class="mt-4 font-semibold leading-snug text-navy-900">CDRRMO &amp; MDRRMO Leadership &amp; Planning Officers</h3>
+        </article>
+        <article class="rounded-xl border border-slate-200 p-5">
+          <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-navy-900 text-white"><i data-lucide="radio-tower" class="h-5 w-5"></i></span>
+          <h3 class="mt-4 font-semibold leading-snug text-navy-900">24/7 Operations Center Dispatchers &amp; Comms</h3>
+        </article>
+        <article class="rounded-xl border border-slate-200 p-5">
+          <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-navy-900 text-white"><i data-lucide="life-buoy" class="h-5 w-5"></i></span>
+          <h3 class="mt-4 font-semibold leading-snug text-navy-900">Search &amp; Rescue (SAR) &amp; QRT Team Responders</h3>
+        </article>
+        <article class="rounded-xl border border-slate-200 p-5">
+          <span class="flex h-10 w-10 items-center justify-center rounded-lg bg-navy-900 text-white"><i data-lucide="house" class="h-5 w-5"></i></span>
+          <h3 class="mt-4 font-semibold leading-snug text-navy-900">BDRRMC Coordinators &amp; Flood-Prone Barangay Residents</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section id="privacy" class="bg-slate-100">
+      <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-16">
+        <div class="rounded-xl border-l-4 border-crimson-600 bg-white p-6 sm:p-8">
+          <h2 class="flex items-center gap-2.5 text-xl font-bold text-navy-900 sm:text-2xl"><i data-lucide="lock" class="h-6 w-6 text-crimson-600"></i>Trust &amp; Privacy Assurance</h2>
+          <p class="mt-4 max-w-3xl leading-relaxed text-slate-700">All information collected through this questionnaire shall be processed in accordance with <strong class="text-navy-900">Republic Act No. 10173</strong>, otherwise known as the <strong class="text-navy-900">Data Privacy Act of 2012</strong>.</p>
+          <p class="mt-3 max-w-3xl leading-relaxed text-slate-700">Responses shall be used <strong class="text-navy-900">exclusively for university venture defense</strong> under the Technopreneurship course of the College of Computing Studies, Western Mindanao State University.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="mx-auto max-w-6xl px-4 py-14 sm:px-6 md:py-20">
+      <h2 class="text-2xl font-bold tracking-tight text-navy-900 sm:text-3xl">Research Team &amp; Academic Endorsement</h2>
+
+      <div class="mt-8 grid gap-8 md:grid-cols-3 md:gap-6">
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-crimson-600">Team Representative</h3>
+          <p class="mt-2 text-lg font-semibold text-navy-900">Mathew JG S. Payopelin</p>
+          <ul class="mt-2 space-y-1.5 text-sm">
+            <li><a href="tel:+639057051498" class="inline-flex items-center gap-2 text-slate-700 hover:text-crimson-600"><i data-lucide="phone" class="h-4 w-4 text-slate-400"></i>0905 705 1498</a></li>
+            <li><a href="mailto:mathjgpayopelim@gmail.com" class="inline-flex items-center gap-2 break-all text-slate-700 hover:text-crimson-600"><i data-lucide="mail" class="h-4 w-4 text-slate-400"></i>mathjgpayopelim@gmail.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-crimson-600">Members</h3>
+          <p class="mt-2 text-lg font-semibold text-navy-900">Kitt Harley Sy</p>
+          <p class="mt-0.5 text-lg font-semibold text-navy-900">Rhon James Barcelona</p>
+        </div>
+        <div>
+          <h3 class="text-xs font-semibold uppercase tracking-wider text-crimson-600">Course Instructor</h3>
+          <p class="mt-2 text-lg font-semibold text-navy-900">Salimar B. Tahil, MEnggEd ICT</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-navy-950 text-sm text-slate-400">
+    <div class="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <p class="font-medium text-slate-200">SafeIkaw &middot; College of Computing Studies, Western Mindanao State University</p>
+      <p class="mt-2 max-w-3xl">This page is for academic research only and is not an emergency reporting channel. During an emergency, contact your local CDRRMO, barangay, or responders directly.</p>
+    </div>
+  </footer>
+
+  <script>
+    /* =====================================================================
+       PASTE THE GOOGLE FORM LINK HERE. This is the only line to change.
+       Use the full link ending in /viewform, not the forms.gle short link:
+       the "fill out right here" embed only works with the full link.
+       ===================================================================== */
+    var FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdZraA1e4uD7u-FcM-eBVF3T3BWthw8eCanoyMFo3n161ldLg/viewform";
+
+    (function () {
+      var byId = function (id) { return document.getElementById(id); };
+      var isSet = /^https:\/\//.test(FORM_URL);
+
+      var link = byId('form-link');
+      var toggle = byId('embed-toggle');
+      var panel = byId('embed-panel');
+      var chevron = byId('embed-chevron');
+      var slot = byId('embed-slot');
+      var loaded = false;
+
+      if (!isSet) {
+        link.removeAttribute('href');
+        link.removeAttribute('target');
+        link.setAttribute('aria-disabled', 'true');
+        link.classList.add('opacity-60', 'cursor-not-allowed');
+        link.classList.remove('hover:bg-crimson-700');
+        toggle.disabled = true;
+        toggle.classList.add('opacity-60', 'cursor-not-allowed');
+        byId('config-notice').classList.remove('hidden');
+        byId('config-notice').classList.add('flex');
+      } else {
+        link.href = FORM_URL;
+        byId('embed-fallback-link').href = FORM_URL;
+
+        var qr = byId('qr-image');
+        qr.onload = function () {
+          qr.classList.remove('hidden');
+          byId('qr-fallback').classList.add('hidden');
+        };
+        qr.onerror = function () {
+          byId('qr-fallback-text').textContent = 'QR code could not load. Please use the button instead.';
+        };
+        qr.src = 'https://api.qrserver.com/v1/create-qr-code/?size=400x400&margin=0&ecc=M&data=' + encodeURIComponent(FORM_URL);
+      }
+
+      function embedUrl() {
+        if (FORM_URL.indexOf('docs.google.com/forms') === -1) return null;
+        var clean = FORM_URL.split('#')[0].split('?')[0];
+        return clean + '?embedded=true';
+      }
+
+      function loadEmbed() {
+        if (loaded) return;
+        loaded = true;
+        var src = embedUrl();
+        if (!src) {
+          slot.innerHTML = '<p class="p-6 text-center text-slate-600">This form can only be opened in a new tab.</p>';
+          return;
+        }
+        var frame = document.createElement('iframe');
+        frame.src = src;
+        frame.title = 'SafeIkaw research questionnaire';
+        frame.className = 'block w-full h-[85vh] min-h-[640px]';
+        frame.setAttribute('frameborder', '0');
+        frame.textContent = 'Loading…';
+        slot.appendChild(frame);
+      }
+
+      toggle.addEventListener('click', function () {
+        var open = toggle.getAttribute('aria-expanded') !== 'true';
+        toggle.setAttribute('aria-expanded', String(open));
+        panel.classList.toggle('hidden', !open);
+        chevron.classList.toggle('rotate-180', open);
+        if (open) {
+          loadEmbed();
+          panel.scrollIntoView({ block: 'start' });
+        }
+      });
+
+      window.addEventListener('load', function () {
+        if (window.lucide) window.lucide.createIcons();
+      });
+    })();
+  </script>
+</body>
+</html>
